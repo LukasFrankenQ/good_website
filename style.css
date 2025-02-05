@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #90a3ff; /* Blue background; change this value to use a different color */
+  background-color: #0078D4; /* Blue background; change this value to use a different color */
   font-family: 'Montserrat', sans-serif;
   color: #000000;
   position: relative; /* Needed for fixed-position floating elements */
@@ -14,7 +14,7 @@ body {
   padding: 2rem;
   width: calc(100% - 20cm);    /* 5cm gap on each side (total 10cm) */
   /* background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-  background: #e6eff8; /* Semi-transparent white background */
+  background: #98C9EE; /* Semi-transparent white background */
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
