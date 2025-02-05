@@ -92,3 +92,27 @@ footer {
   border: 1px solid #ddd;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.underline-link {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+.underline-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;              /* Start in the middle */
+  bottom: -2px;           /* Adjust spacing as needed */
+  width: 0;               /* Start with no width */
+  height: 2px;            /* Thickness of the line */
+  background-color: currentColor;
+  
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.underline-link:hover::after {
+  width: 100%;            /* Expand to full width */
+  left: 0;                /* Move to align with the left edge */
+}
+
